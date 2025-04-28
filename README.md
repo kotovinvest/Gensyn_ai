@@ -1,27 +1,16 @@
 # RL Swarm
 
-RL Swarm is an open source system for peer-to-peer reinforcement learning over the internet. Running a swarm node allows you to train your personal model against the swarm intelligence. Each swarm performs RL reasoning as a group, with a gossiping system (Hivemind) for collaborative improvement between models. You can also connect your node to the Gensyn Testnet, to receive an on-chain identity that tracks your progress over time.
+<h2 align=center>Gensyn Testnet Node Guide</h2>
 
-RL Swarm is fully open and permissionless, meaning you can run it on a basic consumer laptop at home or on a powerful GPU in the cloud. You can also experiment with different models to see which ones perform best.
+## 💻 System Requirements
 
-## Requirements
+| Requirement                         | Details                                                     |
+|-------------------------------------|-------------------------------------------------------------|
+| **CPU Architecture**                | `arm64` or `amd64`                                          |
+| **Recommended RAM**                 | 24 GB                                                       |
+| **CUDA Devices (Recommended)**      | `RTX 3090`, `RTX 4070`, `RTX 4090`, `A100`, `H100`          |
+| **Python Version**                  | Python >= 3.10 (For Mac, you may need to upgrade)           |
 
-Ensure that you are using a supported machine/device/environment:
-
-- arm64 or x86 CPU with minimum 16gb ram (note that if you run other applications during training it might crash training).
-
-OR
-
-- CUDA devices (officially supported):
-    - RTX 3090
-    - RTX 4070
-    - RTX 4090
-    - A100
-    - H100
-
-WITH
-
--  Python >=3.10 (for Mac, you will likely need to upgrade)
 
 ## ⚠️ Please read before continuing ⚠️
 
